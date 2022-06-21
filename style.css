@@ -5,10 +5,10 @@ body {
 }
 
 body h1 {
+    float: center;
     margin-top: 75px;
     font-size: 48px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 /* Навигационная панель */
@@ -182,26 +182,60 @@ body h1 {
 }
 
 /* Ссылки на соц сети */
-.inst img {
-    width: 50px;
-    position: absolute;
-    left: 43%;
-    bottom: 1%;
-    border-radius: 12px;
+
+.cont{
+    float: center;
+    margin-top: 400px;
 }
-.telegram img {
-    width: 50px;
-    position: absolute;
-    left: 50%;
-    bottom: 1%;
-    border-radius: 12px;
+
+.cont div{
+    font-size: 22px;
 }
+
+.inst img,
+.telegram img,
 .whatsapp img {
+    float: left;
     width: 50px;
-    position: absolute;
-    left: 57%;
-    bottom: 1%;
     border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.inst img{
+    margin-left: 44%;
+}
+
+.admins1,
+.admins2{
+    float: left;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.admins3,
+.admins4{
+    float: right;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.admins1 img,
+.admins2 img,
+.admins3 img,
+.admins4 img{
+    width: 200px;
+    border: 2px solid #000000;
+    border-radius: 18px;
+}
+
+.admins1 figcaption,
+.admins2 figcaption,
+.admins3 figcaption,
+.admins4 figcaption{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* Генератор случайных чисел */
